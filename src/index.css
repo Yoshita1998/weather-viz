@@ -3,9 +3,13 @@
   flex-direction: column; /* Stack children in a vertical column */
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
-  height: 100vh; /* Full height of viewport */
-  /*width: 500px;*/
+  width: fit-content;
+  block-size: fit-content;
   margin: auto;
+  padding: 100px;
+  border: 1px solid #E5E5E5;
+  background-color: #ff5e69;
+  color: #E5E5E5;
 }
 
 .forecast-container {
@@ -19,7 +23,7 @@
   flex: 0 0 20%; /* Set width for each item (adjust as needed) */
   padding: 10px;
   margin: 10px;
-  background-color: #f0f0f0;
+  background-color: #8e4bfa;
   border-radius: 5px;
   text-align: center;
 }
